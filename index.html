@@ -19,6 +19,10 @@ layout: null
     gtag('js', new Date());
     gtag('config', '{{ site.google_analytics }}');
   </script-->
+  <script>
+    var github_username = "{{ site.github_username }}";
+    var github_repository = "{{ site.github_repository }}";
+  </script>
   <link
     href="https://fonts.googleapis.com/css2?family=Google+Sans:wght@700&family=Noto+Sans:wght@400;500;600;700&display=swap"
     rel="stylesheet">
@@ -34,9 +38,10 @@ layout: null
 
   <!--somehow bulma navbar doesn't take space on page, so I insert a div element-->
   <div style="height: 3.25rem;"></div>
-
   <nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
-    <div class="navbar-brand">
+    <div class="navbar-brand" style="display: flex; align-items: center;">
+      <span id="commitMessage" class="commit-msg" style="padding-left: 10px; padding-right: 10px; display: inline-block; vertical-align: middle;">
+      </span>
       <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -46,7 +51,7 @@ layout: null
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-end">
         {% for item in site.data.navigation %}
-        <a class="navbar-item" style="text-align:right" href='{{site.baseurl}}{{item.link}}{{item.anchor}}'>
+        <a class="navbar-item" style="text-align:right; font-weight: bold;" href='{{site.baseurl}}{{item.link}}{{item.anchor}}'>
           {{ item.name }}
         </a>
         {% endfor %}

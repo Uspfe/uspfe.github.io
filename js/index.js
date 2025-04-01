@@ -1,3 +1,11 @@
+function formatDate(dateString) {
+    const date = new Date(dateString);
+    const day = String(date.getDate()).padStart(2, '0');
+    const month = String(date.getMonth() + 1).padStart(2, '0'); // Month is 0-based
+    const year = date.getFullYear();
+    return `${day}.${month}.${year}`;
+}
+
 
 $(document).ready(function() {
     $('.publication-mousecell').mouseover(function() {
@@ -29,6 +37,21 @@ $(document).ready(function() {
         $(this).find('.image2').css('display', 'inline-block');
     });
 
+
+    async function fetchCommits() {
+        const response = await fetch(`https://api.github.com/repos/${github_username}/${github_repository}/commits`);
+        const commits = await response.json();
+
+        const commitDate = formatDate(commits[0].commit.author.date);
+        const commitMessage = commits[0].commit.message;
+
+        const displayText = `${commitDate}: ${commitMessage}`;
+        const cuttoff = 30;
+
+        document.getElementById('commitMessage').innerHTML = displayText.length > cuttoff ? displayText.substring(0, cuttoff) + "..." : displayText;;
+        console.log(commits)
+    }
+    fetchCommits();
 })
 
 // fix from https://stackoverflow.com/questions/58146137/closing-a-dropdown-navbar-on-click-in-javascript

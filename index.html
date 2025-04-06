@@ -40,7 +40,8 @@ layout: null
   <div style="height: 3.25rem;"></div>
   <nav class="navbar is-fixed-top is-light" role="navigation" aria-label="main navigation">
     <div class="navbar-brand" style="display: flex; align-items: center;">
-      <span id="commitMessage" class="commit-msg" style="padding-left: 10px; padding-right: 10px; display: inline-block; vertical-align: middle;">
+      <span id="updateMessage" style="padding-left: 10px; padding-right: 10px; display: inline-block; vertical-align: middle;">
+        Last updated:
       </span>
       <a class="navbar-burger" role="button" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
@@ -48,10 +49,10 @@ layout: null
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div id="navbarBasicExample" class="navbar-menu">
+    <div id="navbarBasicExample" class="navbar-menu" style="font-weight: bold;">
       <div class="navbar-end">
         {% for item in site.data.navigation %}
-        <a class="navbar-item" style="text-align:right; font-weight: bold;" href='{{site.baseurl}}{{item.link}}{{item.anchor}}'>
+        <a class="navbar-item" style="text-align:right" href='{{site.baseurl}}{{item.link}}{{item.anchor}}'>
           {{ item.name }}
         </a>
         {% endfor %}
@@ -114,8 +115,7 @@ layout: null
                   </svg>
               </button>
           </div>
-        <div id="message" class="message" style="display: none;"></div>
-    </div>
+          <div id="message" class="message" style="display: none;"></div>
     </div>
   </section>
 

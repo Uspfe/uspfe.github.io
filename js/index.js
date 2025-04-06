@@ -43,13 +43,15 @@ $(document).ready(function() {
         const commits = await response.json();
 
         const commitDate = formatDate(commits[0].commit.author.date);
+        
+        // you could also display commit message
         const commitMessage = commits[0].commit.message;
+        const cuttoff = 100;
+        const commitMessageDisplay = commitMessage.length > cuttoff ? commitMessage.substring(0, cuttoff) + "..." : commitMessage;
 
-        const displayText = `${commitDate}: ${commitMessage}`;
-        const cuttoff = 30;
+        const displayText = `Last updated: ${commitDate}`;
 
-        document.getElementById('commitMessage').innerHTML = displayText.length > cuttoff ? displayText.substring(0, cuttoff) + "..." : displayText;;
-        console.log(commits)
+        document.getElementById('updateMessage').innerHTML = displayText
     }
     fetchCommits();
 })

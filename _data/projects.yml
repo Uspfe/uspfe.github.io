@@ -1,3 +1,11 @@
+- id: sexual_healing_guitar
+  title: "Sexual Healing, Guitar #1 and #2"
+  description: "Tabs and scores for Sexual Healing by Marvin Gaye for lead and rhythm guitar."
+  webpage: https://oliver.hausdoerfer.de/sexual_healing_guitar
+  image: lego_before.jpg
+  venue: Project, 2025
+  authors:
+    - hausdörfer
 - id: lego
   title: "Robotic Manipulator Builds Lego"
   description: "A Franka Emika FR3 robotic manipulator builds lego structures."

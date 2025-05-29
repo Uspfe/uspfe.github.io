@@ -90,13 +90,15 @@ document.addEventListener('DOMContentLoaded', () => {
 // submission box
 document.addEventListener('DOMContentLoaded', function() {
     const submitButton = document.getElementById('submitButton');
-    submitButton.addEventListener('click', submitEmail);
-    emailInput.addEventListener('keydown', function(event) {
-        if (event.key === 'Enter') {
-            event.preventDefault();
-            submitButton.click();
-        }
-    });
+    if (submitButton) {
+        submitButton.addEventListener('click', submitEmail);
+        emailInput.addEventListener('keydown', function (event) {
+            if (event.key === 'Enter') {
+                event.preventDefault();
+                submitButton.click();
+            }
+        });
+    };
 });
 
 function validateEmail(email) {

@@ -40,16 +40,23 @@ $(document).ready(function() {
 
     async function fetchCommits() {
         const response = await fetch(`https://api.github.com/repos/${github_username}/${github_repository}/commits`);
-        const commits = await response.json();
 
-        const commitDate = formatDate(commits[0].commit.author.date);
+        let displayText
         
-        // you could also display commit message
-        const commitMessage = commits[0].commit.message;
-        const cuttoff = 100;
-        const commitMessageDisplay = commitMessage.length > cuttoff ? commitMessage.substring(0, cuttoff) + "..." : commitMessage;
+        if (response.ok) {
+            const commits = await response.json();
 
-        const displayText = `Last updated: ${commitDate}`;
+            const commitDate = formatDate(commits[0].commit.author.date);
+            
+            // you could also display commit message
+            const commitMessage = commits[0].commit.message;
+            const cuttoff = 100;
+            const commitMessageDisplay = commitMessage.length > cuttoff ? commitMessage.substring(0, cuttoff) + "..." : commitMessage;
+
+            displayText = `Last updated: ${commitDate}`;
+        } else {
+            displayText = `Last updated: recently`;
+        }
 
         document.getElementById('updateMessage').innerHTML = displayText
     }

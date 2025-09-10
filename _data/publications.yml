@@ -1,3 +1,17 @@
+- id2: crisp
+  title: CRISP - Compliant ROS2 Controllers for Learning-Based Manipulation Policies and Teleoperation
+  description: C++ Controllers, Python Interfaces, and Gymnasium environments for teleoperation and deploying learning-based policies on manipulators.
+  image: CRISP.png
+  venue: TBD
+  project_page: https://utiasdsl.github.io/crisp_controllers/
+  paper: https://arxiv.org/abs/2509.06819
+  authors:
+  - Pro
+  - hausdörfer
+  - Römer
+  - Dösch
+  - Schuck
+  - schoellig
 - id2: agnathax
   title: Deep reinforcement learning for investigating stretch feedback during swimming of the lamprey
   description: Lampreys can locomote using only based on local sensory feedback loops. Similar neural network designs show favorable properties for robot learning.

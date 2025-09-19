@@ -1,1 +1,0 @@
-Provide all images with aspect ratio 1:1 and minimum resolution of 320px.

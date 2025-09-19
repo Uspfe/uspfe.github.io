@@ -18,19 +18,19 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Oliver Hausdörfer
-name: Oliver Hausdörfer
+title: Benjamin Bogenberger
+name: Benjamin Bogenberger
 position: PhD Candidate
-email: oliver.hausdoerfer@tum.de
+email: benjamin.bogenberger@tum.de
 description: >-
-  I am a PhD candidate at [Prof. Schoellig](https://www.ce.cit.tum.de/lsy/prof-angela-schoellig/)'s lab at Technical University of Munich. My main interests include control for complex systems, reinforcement learning, and robotics. Previously, I completed a M.Sc. degree in Robotics at TUM, and wrote my master's thesis with [Prof. Ijspeert](https://www.epfl.ch/labs/biorob/). I was at [Robert Bosch GmbH](https://www.bosch.de/) and in the [Formula Student](https://elbflorace.de/). Member of [AI Grid](https://ai-grid.org/en/). Podcast at [Labs Talk](https://www.youtube.com/watch?v=b0pXgmh-96w&t=193s).
+  I am a PhD candidate at [Prof. Schoellig](https://www.ce.cit.tum.de/lsy/prof-angela-schoellig/)'s lab at Technical University of Munich. My main interests include control for complex systems, semantic reasoning, and robotics. Previously, I completed a M.Sc. degree in Electrical Engineering at TUM, and wrote my master's thesis with .... I was at [BMW](https://www.bmw.com/) and [Rohde & Schwarz](https://www.rohde-schwarz.com/).
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "oliver.hausdoerfer.de" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: OliHausdorfer
-github_username: OliEfr
-github_repository: OliEfr.github.io
-linkedin_name: ohausdoerfer
-google_scholar: -NHoohwAAAAJ
+url: "benjamin.bogenberger.de" # the base hostname & protocol for your site, e.g. http://example.com
+twitter_username: 
+github_username: Uspfe
+github_repository: benbog.github.io
+linkedin_name: benjamin-b-35270b217
+google_scholar: BnddWQsAAAAJ
 #google_analytics: G-MFWSBLRKG0
 
 # Build settings

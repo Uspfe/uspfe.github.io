@@ -1,104 +1,12 @@
-hausdörfer:
-  first_name: Oliver
-  last_name: Hausdörfer
-  website: oliver.hausdoerfer.de
+bogenberger:
+  first_name: Benjamin
+  last_name: Bogenberger
+  website: benjamin.bogenberger.de
   is_me: true
-nergis:
-  first_name: Nergishan
-  last_name: İyisan
-  website: https://www.ee.cit.tum.de/en/rmn/people/
-chen:
-  first_name: Chen
-  last_name: Wang
-  website: https://www.ee.cit.tum.de/en/rmn/people/
-hiendl:
-  first_name: Lukas
-  last_name: Hiendlmeier
-  website: https://www.ee.cit.tum.de/en/nel/team/lukas-hiendlmeier/
-pharder:
-  first_name: Philipp
-  last_name: Harder
-  website: https://www.ee.cit.tum.de/en/rmn/people/
-wolfrum:
-  first_name: Bernhard
-  last_name: Wolfrum
-  website: https://www.professoren.tum.de/wolfrum-bernhard
-özkale:
-  first_name: Berna
-  last_name: Özkale
-  website: https://www.professoren.tum.de/oezkaleedelmann-berna
-schuck:
-  first_name: Martin
-  last_name: Schuck
-  website: https://amacati.github.io/
-lefort:
-  first_name: Eric
-  last_name: Lefort
-naimer:
-  first_name: Jack
-  last_name: Naimer
-tahir:
-  first_name: Hassan
-  last_name: Tahir
-dong:
-  first_name: Kate
-  last_name: Dong
-guderian:
-  first_name: Lennard
-  last_name: Guderian
-  website: https://lennart.guderian.de/
-kluge:
-  first_name: Daniel
-  last_name: Kluge
-fugi:
-  first_name: Lucas 
-  last_name: Fugmann
-vonRohr:
-  first_name: Alexander
-  last_name: von Rohr
-  website: https://thisisalex.de/
-lefort:
-  first_name: Èric
-  last_name: Lefort
-schoellig:
-  first_name: Angela
-  last_name: Schoellig
-  website: https://www.ce.cit.tum.de/lsy/prof-angela-schoellig/
-palmus:
-  first_name: Jan
-  last_name: Hansen-Palmus
-  website: https://www.linkedin.com/in/jan-hansen-palmus-7b5729220/
-le:
-  first_name: Michael Truong
-  last_name: Le
-  website: https://www.linkedin.com/in/mtruongle
-verma:
-  first_name: Alok
-  last_name: Verma
-  website: https://www.linkedin.com/in/alokverma001
-gupta:
-  first_name: Astha
-  last_name: Gupta
-ijspeert:
-  first_name: Auke
-  last_name: Ijspeert
-  website: https://www.epfl.ch/labs/biorob/people/ijspeert/
-renj:
-  first_name: Daniel
-  last_name: Renjewski
-  website: https://www.mec.ed.tum.de/am/renjewski/
-Pro:
-  first_name: Daniel
-  last_name: San José Pro
-  website: https://danielsanjosepro.github.io/
-Römer:
-  first_name: Ralf
-  last_name: Römer
-  website: https://ralfroemer99.github.io/
-Dösch:
-  first_name: Maximilian
-  last_name: Dösch
-Schuck:
-  first_name: Martin
-  last_name: Schuck
-  website: https://amacati.github.io/
+buerger:
+  first_name: Johannes
+  last_name: Buerger
+nenchev:
+  first_name: Vladislav
+  last_name: Nenchev
+  website: https://www.unibw.de/home-en/appointment-of-professors/prof-vladislav-nenchev

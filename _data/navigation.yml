@@ -10,6 +10,6 @@
 - name: Misc
   link: /
   anchor: '#misc'
-- name: Teaching
-  link: /
-  anchor: '#teaching'
+# - name: Teaching
+#   link: /
+#   anchor: '#teaching'

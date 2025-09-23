@@ -3,13 +3,13 @@
   anchor: '#'
 - name: Publications
   link: /
-  anchor: '#publications'
-- name: Projects
-  link: /
-  anchor: '#projects'
-- name: Misc
-  link: /
-  anchor: '#misc'
+#   anchor: '#publications'
+# - name: Projects
+#   link: /
+#   anchor: '#projects'
+# - name: Misc
+#   link: /
+#   anchor: '#misc'
 # - name: Teaching
 #   link: /
 #   anchor: '#teaching'

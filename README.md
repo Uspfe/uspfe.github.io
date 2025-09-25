@@ -16,8 +16,8 @@ gem install bundler # bundler
 
 Clone the repository:
 ```
-git clone https://github.com/Uspfe/benbog.github.io # clone
-cd benbog.github.io
+git clone https://github.com/Uspfe/uspfe.github.io # clone
+cd uspfe.github.io
 sudo bundle install # install required packages
 ```
 

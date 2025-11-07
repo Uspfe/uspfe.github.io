@@ -3,6 +3,7 @@
   description: Enabling a robot to efficiently explore and maintain up-to-date metric-semantic maps in real-world environments, tracking object changes and navigating to goals with open-vocabulary reasoning.
   image: glasses.jpg
   venue: Under review
+  project_page: https://utiasdsl.github.io/semi-static-semantic-exploration/
   paper: https://arxiv.org/pdf/2509.19851
   authors:
   - bogenberger

@@ -2,8 +2,8 @@
   title: Where Did I Leave My Glasses? Open-Vocabulary Semantic Exploration in Real-World Semi-Static Environments
   description: Enabling a robot to efficiently explore and maintain up-to-date metric-semantic maps in real-world environments, tracking object changes and navigating to goals with open-vocabulary reasoning.
   image: glasses.jpg
-  venue: under review
-  paper: https://arxiv.org/abs/2509.19851
+  venue: Under review
+  paper: https://arxiv.org/pdf/2509.19851
   authors:
   - bogenberger
   - harrision

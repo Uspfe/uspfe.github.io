@@ -1,7 +1,7 @@
 bogenberger:
   first_name: Benjamin
   last_name: Bogenberger
-  website: benjamin.bogenberger.de
+  website: https://ben-bogenberger.de/
   is_me: true
 buerger:
   first_name: Johannes
@@ -10,3 +10,26 @@ nenchev:
   first_name: Vladislav
   last_name: Nenchev
   website: https://www.unibw.de/code-en/professors/vladislav-nenchev
+harrision:
+  first_name: Oliver
+  last_name: Harrision
+  website: https://oliverharrison.vercel.app/
+dahanaggamaarachchi:
+  first_name: Orrin
+  last_name: Dahanaggamaarachchi
+brunke:
+  first_name: Lukas
+  last_name: Brunke
+  website: https://www.lukasbrunke.com/
+qian:
+  first_name: Jingxing
+  last_name: Qian
+  website: https://scholar.google.com/citations?user=OZk7X80AAAAJ&hl=en
+zhou:
+  first_name: SiQi
+  last_name: Zhou
+  website: https://siqizhou.com/
+schoellig:
+  first_name: Angela
+  last_name: Schoellig
+  website: https://www.ce.cit.tum.de/lsy/prof-angela-schoellig/

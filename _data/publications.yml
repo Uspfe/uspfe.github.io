@@ -1,6 +1,20 @@
+- id2: glasses
+  title: Where Did I Leave My Glasses? Open-Vocabulary Semantic Exploration in Real-World Semi-Static Environments
+  description: Enabling a robot to efficiently explore and maintain up-to-date metric-semantic maps in real-world environments, tracking object changes and navigating to goals with open-vocabulary reasoning.
+  image: glasses.jpg
+  venue: under review
+  paper: https://arxiv.org/abs/2509.19851
+  authors:
+  - bogenberger
+  - harrision
+  - dahanaggamaarachchi
+  - brunke
+  - qian
+  - zhou
+  - schoellig
 - id2: funnel
   title: Trajectory Planning for Automated Driving using Target Funnels
-  description: Novel trajectory planning method to reduce effect of uncertain and noisy estimates of the upcoming road course.
+  description: Trajectory planner to reduce the effects of uncertain and noisy estimates of the upcoming road course.
   image: ecc25_149.jpg
   venue: European Control Conference (ECC) 2025
   paper: https://arxiv.org/pdf/2503.23795
